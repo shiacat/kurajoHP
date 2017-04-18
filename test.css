@@ -138,7 +138,7 @@ div#welcomelink {
     text-align: center;
     font-size: 3em;
     color: deeppink;
-    animation:welcomelink 2.0s step-end infinite alternate
+    animation:welcomelink 2.0s step-end infinite alternate;
 }
     div#welcomet {
     font-size: 7em;
@@ -150,7 +150,7 @@ div#welcomelink {
 div#welcometext {
     font-size: 2em;
     font-weight: 900;
-    /*animation: welcometext 1.0s step-end infinite alternate;*/
+    animation: welcometext 1.0s step-end infinite alternate;
     color:aqua;
     text-align: center;
     width:100%
@@ -176,21 +176,8 @@ div#welcometext {
         background-color: forestgreen
     }
 }
-@keyframes welcomelink {
-    0%,50%,100% {
-        position: absolute;
-        top: 50%;
-        left:20%;
-        color: aqua
-    }
 
-    25%,75% {
-        position: absolute;
-        top: 53%;
-        left:60%;
-        color: aqua
-    }
-    /*@keyframes welcometext {
+@keyframes welcometext {
     0%,50%,100%{
         
         position:absolute;
@@ -205,4 +192,4 @@ div#welcometext {
         top:53%;
         color: aqua
     }
-}*/
+}
